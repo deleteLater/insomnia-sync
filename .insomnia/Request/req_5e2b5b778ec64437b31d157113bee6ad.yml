@@ -1,0 +1,22 @@
+_id: req_5e2b5b778ec64437b31d157113bee6ad
+type: Request
+parentId: fld_b0af85e34cdf42208e1b13fd0cedd04b
+modified: 1664468137948
+created: 1664467889732
+url: "{{ _.base }}/api/v1/organizations/{{ _.organzationId
+  }}/projects/7da60f0e-17e4-4830-a5be-af1f010af5f2"
+name: delete-project
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664156552030.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

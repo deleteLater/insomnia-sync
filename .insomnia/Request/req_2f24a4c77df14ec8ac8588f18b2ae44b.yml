@@ -1,0 +1,30 @@
+_id: req_2f24a4c77df14ec8ac8588f18b2ae44b
+type: Request
+parentId: fld_4e26e1a921e34b77ae494dbc7919e30c
+modified: 1664896203584
+created: 1664549259656
+url: "{{ _.base }}/api/v1/organizations/{{ _.organzationId
+  }}/policies/eec2f956-4670-458a-899f-af2000f398a7/settings"
+name: update-policy-setting
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "[new] another-policy",
+    	"description": "[new] this is just another policy"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1664181203423.4375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

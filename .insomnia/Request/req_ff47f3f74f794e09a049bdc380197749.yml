@@ -1,0 +1,28 @@
+_id: req_ff47f3f74f794e09a049bdc380197749
+type: Request
+parentId: fld_99fa5a0599dd48bca04900a48253e215
+modified: 1664502491609
+created: 1664502335283
+url: "{{ _.base }}/api/v1/user/profile"
+name: update-user-profile
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "test@featbit.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1663904213040.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

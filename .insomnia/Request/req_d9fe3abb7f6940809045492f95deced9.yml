@@ -1,0 +1,22 @@
+_id: req_d9fe3abb7f6940809045492f95deced9
+type: Request
+parentId: fld_4e26e1a921e34b77ae494dbc7919e30c
+modified: 1664380612564
+created: 1664183242647
+url: "{{ _.base }}/api/v1/organizations/{{ _.organzationId }}/policies/{{
+  _.onwerPolicyId }}"
+name: get-policy
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664177921502.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

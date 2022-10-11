@@ -1,0 +1,32 @@
+_id: req_30887c1ab0f14455a31299cbeed78b02
+type: Request
+parentId: fld_e6b10676c36f4191a088394fb0530a2e
+modified: 1665239769390
+created: 1665066821838
+url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId }}/segments"
+name: create-segment
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "another-group", 
+    	"description": "this is another group",
+    	"included": ["hello", "world"],
+    	"excluded": ["no"],
+    	"rules": []
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1665044364139
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

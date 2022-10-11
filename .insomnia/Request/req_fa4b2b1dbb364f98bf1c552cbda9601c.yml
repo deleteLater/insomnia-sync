@@ -1,0 +1,29 @@
+_id: req_fa4b2b1dbb364f98bf1c552cbda9601c
+type: Request
+parentId: fld_227fa4c116274efbbd10baf5b826dfaf
+modified: 1664453977895
+created: 1664453589596
+url: "{{ _.base }}/api/v1/organizations/0d976253-7e10-4042-9b97-af1e010d6134"
+name: update-organization-name
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "this is a track"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_efabede804a84be58a19e8b4f70c8122
+authentication: {}
+metaSortKey: -1664247196810.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

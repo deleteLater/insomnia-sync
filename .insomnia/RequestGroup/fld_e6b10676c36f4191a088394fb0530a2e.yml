@@ -1,0 +1,10 @@
+_id: fld_e6b10676c36f4191a088394fb0530a2e
+type: RequestGroup
+parentId: wrk_85bf3c4ad13a449cbe2678612253509c
+modified: 1665065521673
+created: 1665065521673
+name: segments
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1665065521673

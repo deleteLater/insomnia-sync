@@ -1,0 +1,22 @@
+_id: req_6213c187106f444a86e4a9be09458a57
+type: Request
+parentId: fld_eda1aff78e924f728ec22f78ded69b7e
+modified: 1664514149747
+created: 1664513304594
+url: "{{ _.base }}/api/v1/organizations/{{ _.organzationId }}/members/{{
+  _.memberId }}/add-policy/{{ _.testerPolicyId }}"
+name: add-member-policy
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664097905030.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

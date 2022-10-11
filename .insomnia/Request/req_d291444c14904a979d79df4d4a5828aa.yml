@@ -1,0 +1,39 @@
+_id: req_d291444c14904a979d79df4d4a5828aa
+type: Request
+parentId: fld_2ffc754ab73047319e6f338f07edfb75
+modified: 1665397451558
+created: 1665371964461
+url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId
+  }}/feature-flags/a8f57ac7-812c-4ce9-a46e-af2a00332e42/variations"
+name: update-flag-variations
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"variationType": "boolean",
+    	"variations": [
+    		{
+    				"id": "1e3d1017-3737-4e50-9d47-d16625f67490",
+    				"value": "true"
+    			},
+    			{
+    				"id": "e8d69e67-d319-4da6-8b83-4df9b437d309",
+    				"value": "false"
+    			}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1665122702184.3906
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

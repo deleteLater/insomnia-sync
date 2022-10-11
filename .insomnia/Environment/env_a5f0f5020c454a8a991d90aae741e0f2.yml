@@ -1,0 +1,44 @@
+_id: env_a5f0f5020c454a8a991d90aae741e0f2
+type: Environment
+parentId: env_8ea15dd30b5aa4e3e35eaf5d141ae15a98476e88
+modified: 1665486277850
+created: 1663991367240
+name: local
+data:
+  base: http://localhost:5000
+  organzationId: 67e2b2db-01ec-4725-9fd9-e5cc3d3a6b74
+  projectId: 5a2eaddd-34fb-4d59-831a-bd7fe427b802
+  prodEnvId: 8dc61769-5af3-4d9f-8cb3-d7342e24c3eb
+  devEnvId: ad99d259-1f50-4ed9-a002-7c65e25487df
+  groupId: 4dbea94d-a1cb-45e3-bab7-c5bf8f956f44
+  testerPolicyId: 65244ccc-d336-44b2-b4ee-b24482ea6037
+  onwerPolicyId: 98881f6a-5c6c-4277-bcf7-fda94c538785
+  memberId: 4526975f-4f6b-4420-9dde-84c276148832
+  devFlagId: a04d1329-103d-4fcf-9e2e-9af284c800c2
+  prodFlagId: b8a5715d-fa0a-4f5c-a5fe-794087c5e957
+  devSegmentId: 7efe5d05-aae2-4983-bf09-eaa4551a774e
+  prodSegmentId: 33d2ade3-ba23-4f46-b774-72507db4133a
+  DEFAULT_HEADERS:
+    Authorization: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ1MjY5NzVmLTRmNmItNDQyMC05ZGRlLTg0YzI3NjE0ODgzMiIsImVtYWlsIjoidGVzdEBmZWF0Yml0LmNvbSIsImV4cCI6MTY2Njk1MjU2MywiaXNzIjoiZmVhdGJpdCIsImF1ZCI6ImZlYXRiaXQtYXBpIn0.BKk4Pq_Xi-KvG4jn6aS08L6vd73QtYVtYSt1msJZRBU
+dataPropertyOrder:
+  "&":
+    - base
+    - organzationId
+    - projectId
+    - prodEnvId
+    - devEnvId
+    - groupId
+    - testerPolicyId
+    - onwerPolicyId
+    - memberId
+    - devFlagId
+    - prodFlagId
+    - devSegmentId
+    - prodSegmentId
+    - DEFAULT_HEADERS
+  "&~|DEFAULT_HEADERS":
+    - Authorization
+color: null
+isPrivate: false
+metaSortKey: 1663991367240

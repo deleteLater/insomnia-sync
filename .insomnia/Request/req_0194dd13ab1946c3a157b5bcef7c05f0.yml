@@ -1,0 +1,30 @@
+_id: req_0194dd13ab1946c3a157b5bcef7c05f0
+type: Request
+parentId: fld_4e26e1a921e34b77ae494dbc7919e30c
+modified: 1664549635613
+created: 1664549622784
+url: "{{ _.base }}/api/v1/organizations/{{ _.organzationId }}/policies/{{
+  _.onwerPolicyId }}/settings"
+name: update-sysmanaged-policy-setting
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "[new] another-policy",
+    	"description": "[new] this is just another policy"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1664181121375.414
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

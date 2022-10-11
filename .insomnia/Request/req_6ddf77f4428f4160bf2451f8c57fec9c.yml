@@ -1,0 +1,25 @@
+_id: req_6ddf77f4428f4160bf2451f8c57fec9c
+type: Request
+parentId: fld_3a656852e486479da1aa3c517950da8d
+modified: 1664156806957
+created: 1663773633314
+url: http://localhost:5000/api/v1/basic/string
+name: get-string-v1
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_26dee12bf8eb49b28391a8e3e83673be
+    name: Origin
+    value: http://ui:8080
+    description: ""
+authentication: {}
+metaSortKey: -1663773633314
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

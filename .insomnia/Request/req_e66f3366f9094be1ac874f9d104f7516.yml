@@ -1,0 +1,22 @@
+_id: req_e66f3366f9094be1ac874f9d104f7516
+type: Request
+parentId: fld_1ccd0d517a924973be22ef61b348bc9a
+modified: 1664525438563
+created: 1664172816136
+url: "{{ _.base }}/api/v1/organizations/{{ _.organzationId
+  }}/groups/is-name-used?name=tester-group"
+name: is-group-name-used
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664160843286
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

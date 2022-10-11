@@ -1,0 +1,21 @@
+_id: req_463b16d2198a4248a4397de60078fd84
+type: Request
+parentId: fld_17babed1c0744d0fbf72a084bf811bc6
+modified: 1664899081379
+created: 1664899073799
+url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId }}/end-user-properties"
+name: get-end-user-properties
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664789655841.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

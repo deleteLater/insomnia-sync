@@ -1,0 +1,22 @@
+_id: req_9175ee0fdb0a4983b403763c7acfda8b
+type: Request
+parentId: fld_1ccd0d517a924973be22ef61b348bc9a
+modified: 1664332825547
+created: 1664173600113
+url: "{{ _.base }}/api/v1/organizations/{{ _.organzationId }}/groups/{{
+  _.groupId }}/policies"
+name: get-group-policies
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664157886500.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

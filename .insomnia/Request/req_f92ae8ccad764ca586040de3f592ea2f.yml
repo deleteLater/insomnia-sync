@@ -1,0 +1,29 @@
+_id: req_f92ae8ccad764ca586040de3f592ea2f
+type: Request
+parentId: fld_b0af85e34cdf42208e1b13fd0cedd04b
+modified: 1664468121331
+created: 1664467874622
+url: "{{ _.base }}/api/v1/organizations/{{ _.organzationId }}/projects/{{
+  _.projectId }}"
+name: update-project
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "frontend-new"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1664156601869.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

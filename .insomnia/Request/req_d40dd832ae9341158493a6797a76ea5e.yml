@@ -1,0 +1,29 @@
+_id: req_d40dd832ae9341158493a6797a76ea5e
+type: Request
+parentId: fld_227fa4c116274efbbd10baf5b826dfaf
+modified: 1664453627231
+created: 1664268538222
+url: "{{ _.base }}/api/v1/organizations"
+name: create-organization
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "xiaoli"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_efabede804a84be58a19e8b4f70c8122
+authentication: {}
+metaSortKey: -1664268538222
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

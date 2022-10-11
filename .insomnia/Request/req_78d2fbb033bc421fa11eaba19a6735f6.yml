@@ -1,0 +1,21 @@
+_id: req_78d2fbb033bc421fa11eaba19a6735f6
+type: Request
+parentId: fld_eda1aff78e924f728ec22f78ded69b7e
+modified: 1664381460111
+created: 1664096333319
+url: "{{ _.base }}/api/v1/organizations/{{ _.organzationId }}/members"
+name: get-member-list
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664096647661.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

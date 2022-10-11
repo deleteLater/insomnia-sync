@@ -1,0 +1,22 @@
+_id: req_9c101b35d07a4ff3ab66df948b943370
+type: Request
+parentId: fld_17babed1c0744d0fbf72a084bf811bc6
+modified: 1664899024427
+created: 1664898931018
+url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId
+  }}/end-users/by-keyIds?keyIds=prod-bot-id&keyIds=another-bot-id"
+name: get-end-user-by-key-ids
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664629778739.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

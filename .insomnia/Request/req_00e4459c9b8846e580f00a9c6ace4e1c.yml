@@ -1,0 +1,22 @@
+_id: req_00e4459c9b8846e580f00a9c6ace4e1c
+type: Request
+parentId: fld_2ffc754ab73047319e6f338f07edfb75
+modified: 1665374427830
+created: 1665374255993
+url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId
+  }}/feature-flags/is-key-used?key=hello-world"
+name: is-flag-key-used
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1665196216159.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

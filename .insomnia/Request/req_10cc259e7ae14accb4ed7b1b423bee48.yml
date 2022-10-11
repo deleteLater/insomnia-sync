@@ -1,0 +1,22 @@
+_id: req_10cc259e7ae14accb4ed7b1b423bee48
+type: Request
+parentId: fld_2ffc754ab73047319e6f338f07edfb75
+modified: 1665326686537
+created: 1665326641452
+url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId
+  }}/feature-flags/b7b539c9-c464-4f05-bf64-af2900f2eeb9"
+name: delete-flag
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1665119979444.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

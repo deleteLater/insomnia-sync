@@ -1,0 +1,22 @@
+_id: req_a370164cc4a847d6b0b9f42d932be9e0
+type: Request
+parentId: fld_17babed1c0744d0fbf72a084bf811bc6
+modified: 1664898868300
+created: 1664896369949
+url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId
+  }}/end-users/20061bf0-9971-4888-baa2-af2400fb0287"
+name: get-end-user
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664683071107
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,22 @@
+_id: req_70ea0e2920e044d19a380095c4aaa9e2
+type: Request
+parentId: fld_eda1aff78e924f728ec22f78ded69b7e
+modified: 1664514225843
+created: 1664514220501
+url: "{{ _.base }}/api/v1/organizations/{{ _.organzationId }}/members/{{
+  _.memberId }}/remove-policy/{{ _.testerPolicyId }}"
+name: remove-member-policy
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664097852639.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_ea5738bd753a472abcabbf44fa7897d2
+type: Request
+parentId: fld_d3b309d74bc54308811afd80c10ff3d4
+modified: 1665483071721
+created: 1665474129193
+url: "{{ _.base }}/api/v1/triggers/56dd787d-cdce-4d60-8870-21ffadc3af45/reset-token"
+name: reset-trigger-token
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1665384142957.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

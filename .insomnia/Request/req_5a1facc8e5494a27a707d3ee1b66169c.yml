@@ -1,0 +1,21 @@
+_id: req_5a1facc8e5494a27a707d3ee1b66169c
+type: Request
+parentId: fld_e6b10676c36f4191a088394fb0530a2e
+modified: 1665486479701
+created: 1665066536706
+url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId }}/segments/{{ _.prodSegmentId }}"
+name: get-segment
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1665054944393.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

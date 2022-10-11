@@ -1,0 +1,22 @@
+_id: req_d5f9b68b190c455b945f01f9deea40ec
+type: Request
+parentId: fld_1ccd0d517a924973be22ef61b348bc9a
+modified: 1664525451578
+created: 1664525292744
+url: "{{ _.base }}/api/v1/organizations/{{ _.organzationId
+  }}/groups/6d7de76d-444e-4705-b664-af20008642b2"
+name: delete-group
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664161336083.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

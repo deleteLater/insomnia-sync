@@ -1,0 +1,22 @@
+_id: req_e54dc1c0704c4b118e24603a2751510c
+type: Request
+parentId: fld_eda1aff78e924f728ec22f78ded69b7e
+modified: 1664380125952
+created: 1664099853198
+url: "{{ _.base }}/api/v1/organizations/{{ _.organzationId }}/members/{{
+  _.memberId }}/policies"
+name: get-member-policies
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664096752442
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

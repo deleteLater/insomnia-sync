@@ -1,0 +1,44 @@
+_id: req_ab08579b4a7c4fb7bd82289813ac9b11
+type: Request
+parentId: fld_17babed1c0744d0fbf72a084bf811bc6
+modified: 1665038273846
+created: 1664899101637
+url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId
+  }}/end-user-properties/b1abaa37-9060-46a8-a5c6-3f29be5bdcb6/upsert"
+name: upsert-end-user-properties
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "city",
+    	"presetValues": [
+    		{
+    			"id": "1",
+    			"value": "beijing",
+    			"description": "北京"
+    		},
+    		{
+    			"id": "2",
+    			"value": "shanghai",
+    			"description": "上海"
+    		}
+    	],
+    	"usePresetValuesOnly": true,
+    	"isDigestField": true,
+    	"remark": "test property"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1664736363474.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

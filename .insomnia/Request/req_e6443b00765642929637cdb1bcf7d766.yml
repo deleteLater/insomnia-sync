@@ -1,0 +1,21 @@
+_id: req_e6443b00765642929637cdb1bcf7d766
+type: Request
+parentId: fld_d3b309d74bc54308811afd80c10ff3d4
+modified: 1665483094754
+created: 1665474502499
+url: "{{ _.base }}/api/v1/triggers/run/NTQxMzcwMzg0NTY2MQfXjdVs7NYE2IcCH_rcOvRQ"
+name: run-trigger
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1665391361105.6562
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

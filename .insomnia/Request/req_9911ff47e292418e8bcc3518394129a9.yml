@@ -1,0 +1,22 @@
+_id: req_9911ff47e292418e8bcc3518394129a9
+type: Request
+parentId: fld_e6b10676c36f4191a088394fb0530a2e
+modified: 1665067586644
+created: 1665066998854
+url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId
+  }}/segments/6440128a-43fc-42e3-b832-af2600f348d9/archive"
+name: archive-segment
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1665028493757.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

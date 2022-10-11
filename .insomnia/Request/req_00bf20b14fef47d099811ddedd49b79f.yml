@@ -1,0 +1,22 @@
+_id: req_00bf20b14fef47d099811ddedd49b79f
+type: Request
+parentId: fld_2ffc754ab73047319e6f338f07edfb75
+modified: 1665380096495
+created: 1665325859514
+url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId
+  }}/feature-flags/a8f57ac7-812c-4ce9-a46e-af2a00332e42/archive"
+name: archive-flag
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1665130870403.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

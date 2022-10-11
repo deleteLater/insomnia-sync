@@ -1,0 +1,22 @@
+_id: req_88c41cf9d9104f2597927a2908c098c6
+type: Request
+parentId: fld_eda1aff78e924f728ec22f78ded69b7e
+modified: 1664380041377
+created: 1664199189984
+url: "{{ _.base }}/api/v1/organizations/{{ _.organzationId }}/members/{{
+  _.memberId }}/inherited-policies"
+name: get-member-inherited-policies
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664097800249.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

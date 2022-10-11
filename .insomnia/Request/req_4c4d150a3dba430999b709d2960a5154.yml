@@ -1,0 +1,29 @@
+_id: req_4c4d150a3dba430999b709d2960a5154
+type: Request
+parentId: fld_4e26e1a921e34b77ae494dbc7919e30c
+modified: 1664549537368
+created: 1664548864686
+url: "{{ _.base }}/api/v1/organizations/{{ _.organzationId }}/policies"
+name: create-policy
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "another-policy",
+    	"description": "this is just another policy"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1664181859807.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

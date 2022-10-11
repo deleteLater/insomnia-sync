@@ -1,0 +1,30 @@
+_id: req_0c4a8b52dae541ef855b3351797add8f
+type: Request
+parentId: fld_1864424881fc458cb7098dcbe1791292
+modified: 1665065508849
+created: 1663559722701
+url: http://localhost:5000/api/v1/identity/login-by-email
+name: login-by-password
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "test@featbit.com",
+    	"password": "123456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f0aa75828a604ff7a1ab89f35bc0b95e
+authentication: {}
+metaSortKey: -1663559722701
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_062fd3d9f10442c6bae2201d053cdd23
+type: Request
+parentId: fld_227fa4c116274efbbd10baf5b826dfaf
+modified: 1664508309564
+created: 1664508015672
+url: "{{ _.base }}/api/v1/organizations/{{ _.organzationId }}/remove-user"
+name: remove-user
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"memberId": "1297dcea-c1ae-484b-b221-af1f00731454"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_efabede804a84be58a19e8b4f70c8122
+authentication: {}
+metaSortKey: -1664204513987.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

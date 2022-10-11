@@ -1,0 +1,21 @@
+_id: req_a800e99ecde6463891158e3990878087
+type: Request
+parentId: fld_d3b309d74bc54308811afd80c10ff3d4
+modified: 1665473767757
+created: 1665470760734
+url: "{{ _.base }}/api/v1/triggers?targetId={{ _.prodFlagId }}"
+name: get-triggers
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1665470760734
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

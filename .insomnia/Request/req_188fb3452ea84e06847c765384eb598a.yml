@@ -1,0 +1,21 @@
+_id: req_188fb3452ea84e06847c765384eb598a
+type: Request
+parentId: fld_227fa4c116274efbbd10baf5b826dfaf
+modified: 1664293503538
+created: 1664007695490
+url: "{{ _.base }}/api/v1/organizations"
+name: get-user-organization
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664007695490
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

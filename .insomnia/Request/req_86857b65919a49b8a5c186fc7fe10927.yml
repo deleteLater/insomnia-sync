@@ -1,0 +1,28 @@
+_id: req_86857b65919a49b8a5c186fc7fe10927
+type: Request
+parentId: fld_2ffc754ab73047319e6f338f07edfb75
+modified: 1665371179545
+created: 1665322502003
+url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId }}/feature-flags"
+name: create-flag
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "hello world"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1665109088485.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

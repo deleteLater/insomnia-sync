@@ -1,0 +1,22 @@
+_id: req_b59a422a10da451dbe36c467b0d231ab
+type: Request
+parentId: fld_b0af85e34cdf42208e1b13fd0cedd04b
+modified: 1664332656008
+created: 1664156900905
+url: "{{ _.base }}/api/v1/organizations/{{ _.organzationId }}/projects/{{
+  _.projectId }}"
+name: get-project
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664156900905
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,22 @@
+_id: req_495ab6d793df414b9a8665fb909bac0f
+type: Request
+parentId: fld_e6b10676c36f4191a088394fb0530a2e
+modified: 1665067771073
+created: 1665067032636
+url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId
+  }}/segments/is-name-used?name=[prod] tester-group"
+name: check-name-used
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664938561594
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

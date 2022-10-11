@@ -1,0 +1,30 @@
+_id: req_d10ff3c69c2248fe8eda2d46dde68d13
+type: Request
+parentId: fld_1864424881fc458cb7098dcbe1791292
+modified: 1664438915814
+created: 1664434774053
+url: http://localhost:5000/api/v1/identity/login-by-email
+name: login-by-password-invited
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "haha@email.com",
+    	"password": "MzM4NWNmMzUt"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f0aa75828a604ff7a1ab89f35bc0b95e
+authentication: {}
+metaSortKey: -1663559722651
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

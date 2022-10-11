@@ -1,0 +1,22 @@
+_id: req_d2340e95c3f84420b643333aedc0b1af
+type: Request
+parentId: fld_2ffc754ab73047319e6f338f07edfb75
+modified: 1665380121095
+created: 1665380112762
+url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId
+  }}/feature-flags/a8f57ac7-812c-4ce9-a46e-af2a00332e42/un-archive"
+name: un-archive-flag
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1665128147664.0469
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

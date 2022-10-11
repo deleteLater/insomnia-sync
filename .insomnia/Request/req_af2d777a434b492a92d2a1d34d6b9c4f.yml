@@ -1,0 +1,35 @@
+_id: req_af2d777a434b492a92d2a1d34d6b9c4f
+type: Request
+parentId: fld_17babed1c0744d0fbf72a084bf811bc6
+modified: 1664896523852
+created: 1664896394589
+url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId }}/end-users"
+name: upsert-end-user
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"keyId": "another-bot-id",
+    	"name": "another-bot",
+    	"customizedProperties": [
+    		{
+    			"name": "email",
+    			"value": "another-bot@featbit.com"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1664576486372.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

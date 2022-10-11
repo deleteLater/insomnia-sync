@@ -1,0 +1,28 @@
+_id: req_1a90de118f9c4c88a34103da0e15be86
+type: Request
+parentId: fld_b0af85e34cdf42208e1b13fd0cedd04b
+modified: 1664468119995
+created: 1664467868061
+url: "{{ _.base }}/api/v1/organizations/{{ _.organzationId }}/projects"
+name: create-project
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "backend"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1664156701548
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

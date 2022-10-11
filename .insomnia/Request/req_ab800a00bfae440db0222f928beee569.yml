@@ -1,0 +1,29 @@
+_id: req_ab800a00bfae440db0222f928beee569
+type: Request
+parentId: fld_1ccd0d517a924973be22ef61b348bc9a
+modified: 1664525420201
+created: 1664525281243
+url: "{{ _.base }}/api/v1/organizations/{{ _.organzationId }}/groups"
+name: create-group
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "sample",
+    	"description": "this is a sample group"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1664162814476.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

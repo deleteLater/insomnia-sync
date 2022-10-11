@@ -1,0 +1,21 @@
+_id: req_53375feeb0514654bc5c426337363757
+type: Request
+parentId: fld_227fa4c116274efbbd10baf5b826dfaf
+modified: 1664463696046
+created: 1664463672357
+url: "{{ _.base }}/api/v1/organizations/5f6344f6-e347-4d28-87ae-af1e010a6c99"
+name: delete-organization
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664236526104.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

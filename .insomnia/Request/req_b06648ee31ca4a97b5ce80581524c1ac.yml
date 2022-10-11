@@ -1,0 +1,25 @@
+_id: req_b06648ee31ca4a97b5ce80581524c1ac
+type: Request
+parentId: fld_3a656852e486479da1aa3c517950da8d
+modified: 1664156809236
+created: 1663906554985
+url: http://localhost:5000/api/v1/basic/string
+name: get-string-v1-cors-test
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_f333f5ec0d654d59a1f83437f255937c
+    name: Origin
+    value: http://localhost:8080
+    description: ""
+authentication: {}
+metaSortKey: -1663720155660.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

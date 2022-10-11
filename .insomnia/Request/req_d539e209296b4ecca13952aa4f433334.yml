@@ -1,0 +1,22 @@
+_id: req_d539e209296b4ecca13952aa4f433334
+type: Request
+parentId: fld_4e26e1a921e34b77ae494dbc7919e30c
+modified: 1664549558573
+created: 1664549547116
+url: "{{ _.base }}/api/v1/organizations/{{ _.organzationId
+  }}/policies/eec2f956-4670-458a-899f-af2000f398a7"
+name: delete-policy
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664181039327.3906
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

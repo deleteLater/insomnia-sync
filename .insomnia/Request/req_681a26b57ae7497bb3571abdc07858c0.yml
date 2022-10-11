@@ -1,0 +1,29 @@
+_id: req_681a26b57ae7497bb3571abdc07858c0
+type: Request
+parentId: fld_5420a29836bd41ffa505100cf814a5f3
+modified: 1664470137325
+created: 1664469901638
+url: "{{ _.base }}/api/v1/projects/{{ _.projectId }}/envs"
+name: create-environment
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "beta",
+    	"description": "this is beta environment"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1664469901638
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

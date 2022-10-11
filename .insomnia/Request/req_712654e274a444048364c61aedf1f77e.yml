@@ -1,0 +1,81 @@
+_id: req_712654e274a444048364c61aedf1f77e
+type: Request
+parentId: fld_2ffc754ab73047319e6f338f07edfb75
+modified: 1665397760708
+created: 1665397372345
+url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId
+  }}/feature-flags/a8f57ac7-812c-4ce9-a46e-af2a00332e42/targeting"
+name: update-flag-targeting
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"targetUsers": [
+    		{
+    			"keyIds": [
+    				"truthy-user-id"
+    			],
+    			"variationId": "1e3d1017-3737-4e50-9d47-d16625f67490"
+    		},
+    		{
+    			"keyIds": [
+    				"falsy-user-id",
+    				"anonymous"
+    			],
+    			"variationId": "e8d69e67-d319-4da6-8b83-4df9b437d309"
+    		}
+    	],
+    	"rules": [
+    		{
+    			"id": "e6e740d1-6f13-4e8c-9267-3e2b10ead34e",
+    			"name": "match by name",
+    			"includedInExpt": true,
+    			"conditions": [
+    				{
+    					"property": "name",
+    					"op": "Contains",
+    					"value": "tester"
+    				}
+    			],
+    			"variations": [
+    				{
+    					"id": "1e3d1017-3737-4e50-9d47-d16625f67490",
+    					"rollout": [
+    						0,
+    						1
+    					],
+    					"exptRollout": 1
+    				}
+    			]
+    		}
+    	],
+    	"fallthrough": {
+    		"includedInExpt": true,
+    		"variations": [
+    			{
+    				"id": "e8d69e67-d319-4da6-8b83-4df9b437d309",
+    				"rollout": [
+    					0,
+    					1
+    				],
+    				"exptRollout": 1
+    			}
+    		]
+    	},
+    	"exptIncludeAllTargets": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1665124063554.3047
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

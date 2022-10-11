@@ -1,0 +1,31 @@
+_id: req_9067a3d10de648e0a7bff3a4b617a162
+type: Request
+parentId: fld_d3b309d74bc54308811afd80c10ff3d4
+modified: 1665482909475
+created: 1665471201751
+url: "{{ _.base }}/api/v1/triggers"
+name: create-trigger
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"targetId": "{{ _.prodFlagId }}",
+    	"type": "feature-flag-general",
+    	"action": "turn-off",
+    	"description": "this trigger will turn off flag"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1665355270365.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

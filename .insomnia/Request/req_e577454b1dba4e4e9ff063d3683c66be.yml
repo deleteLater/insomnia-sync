@@ -1,0 +1,22 @@
+_id: req_e577454b1dba4e4e9ff063d3683c66be
+type: Request
+parentId: fld_eda1aff78e924f728ec22f78ded69b7e
+modified: 1664381469845
+created: 1664381426122
+url: "{{ _.base
+  }}/api/v1/organizations/5f6344f6-e347-4d28-87ae-af1e010a6c99/members"
+name: get-member-list-second-org
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664096542880.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

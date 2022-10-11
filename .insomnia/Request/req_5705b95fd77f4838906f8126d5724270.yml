@@ -1,0 +1,31 @@
+_id: req_5705b95fd77f4838906f8126d5724270
+type: Request
+parentId: fld_2ffc754ab73047319e6f338f07edfb75
+modified: 1665372041730
+created: 1665370740936
+url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId
+  }}/feature-flags/a8f57ac7-812c-4ce9-a46e-af2a00332e42/settings"
+name: update-flag-settings
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "[new] hello world",
+    	"isEnabled": true,
+    	"disabledVariationId": "e8d69e67-d319-4da6-8b83-4df9b437d309"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1665125424924.2188
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

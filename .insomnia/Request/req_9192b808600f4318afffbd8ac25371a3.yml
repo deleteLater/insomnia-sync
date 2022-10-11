@@ -1,0 +1,22 @@
+_id: req_9192b808600f4318afffbd8ac25371a3
+type: Request
+parentId: fld_1ccd0d517a924973be22ef61b348bc9a
+modified: 1664525268005
+created: 1664525265162
+url: "{{ _.base }}/api/v1/organizations/{{ _.organzationId }}/groups/{{
+  _.groupId }}/members"
+name: add-group-member
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664158379297.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

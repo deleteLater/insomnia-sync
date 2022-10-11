@@ -1,0 +1,29 @@
+_id: req_d9f1ffde81334c6ebf3a3c415d81adc8
+type: Request
+parentId: fld_d3b309d74bc54308811afd80c10ff3d4
+modified: 1665482912542
+created: 1665473844382
+url: "{{ _.base }}/api/v1/triggers/04dc547d-e248-488e-9b39-5f20957d7969"
+name: update-trigger
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"isEnabled": false,
+    	"description": "this trigger will be deprecated"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1665413015549.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

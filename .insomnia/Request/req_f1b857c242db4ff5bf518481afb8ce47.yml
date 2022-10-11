@@ -1,0 +1,22 @@
+_id: req_f1b857c242db4ff5bf518481afb8ce47
+type: Request
+parentId: fld_e6b10676c36f4191a088394fb0530a2e
+modified: 1665486549427
+created: 1665486529175
+url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId }}/segments/{{ _.prodSegmentId
+  }}/flag-references"
+name: get-flag-references
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1665049654266.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

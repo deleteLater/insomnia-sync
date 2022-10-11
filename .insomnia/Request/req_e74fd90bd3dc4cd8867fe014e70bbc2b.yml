@@ -1,0 +1,22 @@
+_id: req_e74fd90bd3dc4cd8867fe014e70bbc2b
+type: Request
+parentId: fld_eda1aff78e924f728ec22f78ded69b7e
+modified: 1664380100813
+created: 1664099833120
+url: "{{ _.base }}/api/v1/organizations/{{ _.organzationId }}/members/{{
+  _.memberId }}/groups"
+name: get-member-groups
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664097171565
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

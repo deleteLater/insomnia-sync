@@ -1,0 +1,22 @@
+_id: req_e5ec427abe034420aae18b2789c39dda
+type: Request
+parentId: fld_eda1aff78e924f728ec22f78ded69b7e
+modified: 1664380070284
+created: 1664199164608
+url: "{{ _.base }}/api/v1/organizations/{{ _.organzationId }}/members/{{
+  _.memberId }}/direct-policies"
+name: get-member-direct-policies
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664097590688
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

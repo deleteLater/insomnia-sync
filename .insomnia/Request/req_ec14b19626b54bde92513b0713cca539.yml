@@ -1,0 +1,31 @@
+_id: req_ec14b19626b54bde92513b0713cca539
+type: Request
+parentId: fld_227fa4c116274efbbd10baf5b826dfaf
+modified: 1664438749226
+created: 1664434557822
+url: "{{ _.base }}/api/v1/organizations/{{ _.organzationId }}/add-user-by-email"
+name: add-user-by-email
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "haha@email.com",
+    	"policyIds": [],
+    	"groupIds": []
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_efabede804a84be58a19e8b4f70c8122
+authentication: {}
+metaSortKey: -1664225855399
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

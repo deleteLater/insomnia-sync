@@ -1,0 +1,23 @@
+_id: req_cc98f5d586d742048f5e29d3175a1bd4
+type: Request
+parentId: fld_e6b10676c36f4191a088394fb0530a2e
+modified: 1665067742704
+created: 1665066765402
+url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId
+  }}/segments/by-ids?ids=d57e036c-6d16-46d9-8575-154393a5401f&ids=6440128a-43fc\
+  -42e3-b832-af2600f348d9"
+name: get-segment-by-ids
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1665023203630
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

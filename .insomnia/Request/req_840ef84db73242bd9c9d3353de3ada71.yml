@@ -1,0 +1,30 @@
+_id: req_840ef84db73242bd9c9d3353de3ada71
+type: Request
+parentId: fld_5420a29836bd41ffa505100cf814a5f3
+modified: 1664502306246
+created: 1664470064815
+url: "{{ _.base }}/api/v1/projects/{{ _.projectId
+  }}/envs/55de8a04-1096-407f-b9ac-fb48e963c686"
+name: update-environment
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "[new] beta",
+    	"description": "[new] this is beta environment"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1664369219930
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

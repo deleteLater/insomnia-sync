@@ -1,0 +1,23 @@
+_id: req_2a884b26e2bc4892ae6fb6299dd2abc4
+type: Request
+parentId: fld_4e26e1a921e34b77ae494dbc7919e30c
+modified: 1664381506072
+created: 1664381501733
+url: "{{ _.base
+  }}/api/v1/organizations/5f6344f6-e347-4d28-87ae-af1e010a6c99/policies/{{
+  _.onwerPolicyId }}"
+name: get-policy-second-org
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664176608734.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

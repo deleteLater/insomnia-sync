@@ -1,24 +1,26 @@
-_id: req_86857b65919a49b8a5c186fc7fe10927
+_id: req_b9536ae56482429d80d3a13991dbe983
 type: Request
 parentId: fld_2ffc754ab73047319e6f338f07edfb75
-modified: 1665544554324
-created: 1665322502003
-url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId }}/feature-flags"
-name: create-flag
+modified: 1665544582887
+created: 1665544440318
+url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId }}/feature-flags/copy-to-env/{{
+  _.devEnvId }}"
+name: copy-to-env
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
-    {
-    	"name": "hello world"
-    }
+    [
+    	"b8a5715d-fa0a-4f5c-a5fe-794087c5e957",
+    	"242b0eec-136e-4d98-ac05-af2c0035d0cf"
+    ]
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1665109088485.25
+metaSortKey: -1665217998078.375
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

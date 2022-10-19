@@ -1,0 +1,37 @@
+_id: req_67b2d96693474ff98608f70a09733f22
+type: Request
+parentId: fld_5c11ee3921744e06a573b0b2eedd3558
+modified: 1666146823066
+created: 1665637522685
+url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId }}/settings"
+name: upsert-settings
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"settings": [
+    		{
+    			"id": "31bbd183-dae6-493f-9101-3669f89b2104",
+    			"type": "sync-urls",
+    			"key": "prod-sdk-1",
+    			"value": "http://localhost:5001/not-exist",
+    			"tag": "prod",
+    			"remark": "false,1665647218802"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1665634629759.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

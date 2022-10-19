@@ -1,0 +1,22 @@
+_id: req_334b296829cc40ef977a947378ec96cf
+type: Request
+parentId: fld_2ffc754ab73047319e6f338f07edfb75
+modified: 1666156212004
+created: 1666156157645
+url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId
+  }}/feature-flags/a04d1329-103d-4fcf-9e2e-9af284c800c2/toggle"
+name: toggle-flag
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1665129509033.961
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

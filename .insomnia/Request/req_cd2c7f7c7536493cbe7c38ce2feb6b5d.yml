@@ -1,0 +1,22 @@
+_id: req_cd2c7f7c7536493cbe7c38ce2feb6b5d
+type: Request
+parentId: fld_7cb8880c4a6640dda40aee45544b4902
+modified: 1665647212201
+created: 1665647152867
+url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId
+  }}/data-sync/to-remote?settingId=31bbd183-dae6-493f-9101-3669f89b2104"
+name: sync-to-remote
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1665551295072
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

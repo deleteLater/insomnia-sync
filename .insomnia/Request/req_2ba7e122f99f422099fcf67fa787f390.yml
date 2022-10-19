@@ -1,0 +1,21 @@
+_id: req_2ba7e122f99f422099fcf67fa787f390
+type: Request
+parentId: fld_5c11ee3921744e06a573b0b2eedd3558
+modified: 1665637771181
+created: 1665637430009
+url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId }}/settings?type=sync-urls"
+name: get-settings
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1665637430009
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

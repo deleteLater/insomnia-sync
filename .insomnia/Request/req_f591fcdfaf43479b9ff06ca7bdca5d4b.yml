@@ -1,0 +1,22 @@
+_id: req_f591fcdfaf43479b9ff06ca7bdca5d4b
+type: Request
+parentId: fld_5c11ee3921744e06a573b0b2eedd3558
+modified: 1665638100245
+created: 1665638069606
+url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId
+  }}/settings/39d90aee-0adf-4151-9d1e-7bf1e4361176"
+name: delete-setting
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1665636029884.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

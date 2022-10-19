@@ -1,10 +1,10 @@
 _id: req_63e4d6ca22b84ae2aeacffb9c7a5686b
 type: Request
 parentId: fld_5420a29836bd41ffa505100cf814a5f3
-modified: 1664470130645
+modified: 1666012011600
 created: 1664470124291
 url: "{{ _.base }}/api/v1/projects/{{ _.projectId
-  }}/envs/55de8a04-1096-407f-b9ac-fb48e963c686"
+  }}/envs/3b22a7a2-598a-483a-aae1-a26a91714924"
 name: delete-environment
 description: ""
 method: DELETE

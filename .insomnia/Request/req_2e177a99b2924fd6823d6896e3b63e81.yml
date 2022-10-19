@@ -1,0 +1,31 @@
+_id: req_2e177a99b2924fd6823d6896e3b63e81
+type: Request
+parentId: fld_7cb8880c4a6640dda40aee45544b4902
+modified: 1665632445168
+created: 1665631892520
+url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId }}/data-sync/upload"
+name: upload
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_cb930cebf350464c98b4f548a7e969cc
+      name: file
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\PC\Desktop\sync-data.json
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication: {}
+metaSortKey: -1665551295122
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_083c8900087c4ae0a47101127aec3225
+type: Request
+parentId: fld_7cb8880c4a6640dda40aee45544b4902
+modified: 1665631870382
+created: 1665631829510
+url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId }}/data-sync/download"
+name: download
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1665631829510
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

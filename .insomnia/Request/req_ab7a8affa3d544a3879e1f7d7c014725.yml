@@ -1,10 +1,9 @@
 _id: req_ab7a8affa3d544a3879e1f7d7c014725
 type: Request
 parentId: fld_e6b10676c36f4191a088394fb0530a2e
-modified: 1665222125054
+modified: 1666683297593
 created: 1665066929639
-url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId
-  }}/segments/6440128a-43fc-42e3-b832-af2600f348d9"
+url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId }}/segments/{{ _.prodSegmentId }}"
 name: update-segment
 description: ""
 method: PUT
@@ -12,11 +11,27 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name": "new-another-group", 
-    	"description": "this is another group new",
-    	"included": ["hello", "world"],
-    	"excluded": ["no"],
-    	"rules": []
+    	"name": "[prod] tester-group",
+    	"description": "this is a tester group",
+    	"included": [
+    		
+    	],
+    	"excluded": [
+    		"anonymous"
+    	],
+    	"rules": [
+    		{
+    			"id": "e5080546-dd53-4c9e-bf46-65a4897199c3",
+    			"name": "match by name",
+    			"conditions": [
+    				{
+    					"property": "name",
+    					"op": "EndsWith",
+    					"value": "T"
+    				}
+    			]
+    		}
+    	]
     }
 parameters: []
 headers:

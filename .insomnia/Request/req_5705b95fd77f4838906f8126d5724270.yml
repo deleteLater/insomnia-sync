@@ -1,10 +1,10 @@
 _id: req_5705b95fd77f4838906f8126d5724270
 type: Request
 parentId: fld_2ffc754ab73047319e6f338f07edfb75
-modified: 1665372041730
+modified: 1666610323917
 created: 1665370740936
 url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId
-  }}/feature-flags/a8f57ac7-812c-4ce9-a46e-af2a00332e42/settings"
+  }}/feature-flags/3f2d6810-0cde-425b-b103-af3500f6e5b4/settings"
 name: update-flag-settings
 description: ""
 method: PUT
@@ -14,7 +14,7 @@ body:
     {
     	"name": "[new] hello world",
     	"isEnabled": true,
-    	"disabledVariationId": "e8d69e67-d319-4da6-8b83-4df9b437d309"
+    	"disabledVariationId": "ea8cfd1a-5ba9-488e-8d95-639350145eef"
     }
 parameters: []
 headers:

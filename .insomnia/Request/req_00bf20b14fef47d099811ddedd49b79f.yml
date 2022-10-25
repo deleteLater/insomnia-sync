@@ -1,10 +1,10 @@
 _id: req_00bf20b14fef47d099811ddedd49b79f
 type: Request
 parentId: fld_2ffc754ab73047319e6f338f07edfb75
-modified: 1665380096495
+modified: 1666451147037
 created: 1665325859514
 url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId
-  }}/feature-flags/a8f57ac7-812c-4ce9-a46e-af2a00332e42/archive"
+  }}/feature-flags/5c800bd8-e039-4fbc-a413-af3600ba2405/archive"
 name: archive-flag
 description: ""
 method: PUT

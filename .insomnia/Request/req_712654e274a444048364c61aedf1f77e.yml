@@ -1,10 +1,10 @@
 _id: req_712654e274a444048364c61aedf1f77e
 type: Request
 parentId: fld_2ffc754ab73047319e6f338f07edfb75
-modified: 1665397760708
+modified: 1666611580421
 created: 1665397372345
 url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId
-  }}/feature-flags/a8f57ac7-812c-4ce9-a46e-af2a00332e42/targeting"
+  }}/feature-flags/b8a5715d-fa0a-4f5c-a5fe-794087c5e957/targeting"
 name: update-flag-targeting
 description: ""
 method: PUT
@@ -17,19 +17,19 @@ body:
     			"keyIds": [
     				"truthy-user-id"
     			],
-    			"variationId": "1e3d1017-3737-4e50-9d47-d16625f67490"
+    			"variationId": "6a8d9740-2962-4ed1-a092-643d1bff7278"
     		},
     		{
     			"keyIds": [
     				"falsy-user-id",
     				"anonymous"
     			],
-    			"variationId": "e8d69e67-d319-4da6-8b83-4df9b437d309"
+    			"variationId": "9d336c3a-0733-4b96-b950-f66172e8a4b1"
     		}
     	],
     	"rules": [
     		{
-    			"id": "e6e740d1-6f13-4e8c-9267-3e2b10ead34e",
+    			"id": "abd5edff-8868-4011-aa50-80fe9bcbf91a",
     			"name": "match by name",
     			"includedInExpt": true,
     			"conditions": [
@@ -41,7 +41,37 @@ body:
     			],
     			"variations": [
     				{
-    					"id": "1e3d1017-3737-4e50-9d47-d16625f67490",
+    					"id": "6a8d9740-2962-4ed1-a092-643d1bff7278",
+    					"rollout": [
+    						0,
+    						0.5
+    					],
+    					"exptRollout": 1
+    				},
+    				{
+    					"id": "9d336c3a-0733-4b96-b950-f66172e8a4b1",
+    					"rollout": [
+    						0.5,
+    						1
+    					],
+    					"exptRollout": 1
+    				}
+    			]
+    		},
+    		{
+    			"id": "6c665b20-a8a1-4ce0-b8fc-a46818cc9c52",
+    			"name": "match by segment",
+    			"includedInExpt": true,
+    			"conditions": [
+    				{
+    					"property": "User is in segment",
+    					"op": "",
+    					"value": "[\"33d2ade3-ba23-4f46-b774-72507db4133a\"]"
+    				}
+    			],
+    			"variations": [
+    				{
+    					"id": "6a8d9740-2962-4ed1-a092-643d1bff7278",
     					"rollout": [
     						0,
     						1
@@ -55,7 +85,7 @@ body:
     		"includedInExpt": true,
     		"variations": [
     			{
-    				"id": "e8d69e67-d319-4da6-8b83-4df9b437d309",
+    				"id": "6a8d9740-2962-4ed1-a092-643d1bff7278",
     				"rollout": [
     					0,
     					1

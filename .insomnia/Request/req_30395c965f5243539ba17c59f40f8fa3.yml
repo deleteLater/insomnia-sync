@@ -1,7 +1,7 @@
 _id: req_30395c965f5243539ba17c59f40f8fa3
 type: Request
 parentId: fld_2ffc754ab73047319e6f338f07edfb75
-modified: 1665471365625
+modified: 1666610105903
 created: 1665307766661
 url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId }}/feature-flags/use-new-algorithm"
 name: get-flag

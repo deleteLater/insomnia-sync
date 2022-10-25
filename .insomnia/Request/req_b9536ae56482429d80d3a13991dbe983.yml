@@ -1,7 +1,7 @@
 _id: req_b9536ae56482429d80d3a13991dbe983
 type: Request
 parentId: fld_2ffc754ab73047319e6f338f07edfb75
-modified: 1666156185975
+modified: 1666610093765
 created: 1665544440318
 url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId }}/feature-flags/copy-to-env/{{
   _.devEnvId }}"
@@ -12,8 +12,8 @@ body:
   mimeType: application/json
   text: |-
     [
-    	"b8a5715d-fa0a-4f5c-a5fe-794087c5e957",
-    	"242b0eec-136e-4d98-ac05-af2c0035d0cf"
+    	"fa73d63d-b85e-4a34-8aed-af3500f76a37",
+    	"3f2d6810-0cde-425b-b103-af3500f6e5b4"
     ]
 parameters: []
 headers:

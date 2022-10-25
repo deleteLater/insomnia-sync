@@ -1,10 +1,10 @@
 _id: req_10cc259e7ae14accb4ed7b1b423bee48
 type: Request
 parentId: fld_2ffc754ab73047319e6f338f07edfb75
-modified: 1665326686537
+modified: 1666364800984
 created: 1665326641452
 url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId
-  }}/feature-flags/b7b539c9-c464-4f05-bf64-af2900f2eeb9"
+  }}/feature-flags/f1b7676b-3e7d-4ce0-9211-af3500f81113"
 name: delete-flag
 description: ""
 method: DELETE

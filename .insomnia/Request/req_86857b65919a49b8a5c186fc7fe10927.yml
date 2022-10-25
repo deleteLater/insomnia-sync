@@ -1,7 +1,7 @@
 _id: req_86857b65919a49b8a5c186fc7fe10927
 type: Request
 parentId: fld_2ffc754ab73047319e6f338f07edfb75
-modified: 1665544554324
+modified: 1666437460552
 created: 1665322502003
 url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId }}/feature-flags"
 name: create-flag
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name": "hello world"
+    	"name": "one more time"
     }
 parameters: []
 headers:

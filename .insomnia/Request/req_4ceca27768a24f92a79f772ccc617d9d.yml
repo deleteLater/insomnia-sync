@@ -1,9 +1,9 @@
 _id: req_4ceca27768a24f92a79f772ccc617d9d
 type: Request
 parentId: fld_2ffc754ab73047319e6f338f07edfb75
-modified: 1665544617666
+modified: 1666437193597
 created: 1665239779997
-url: "{{ _.base }}/api/v1/envs/{{ _.devEnvId }}/feature-flags"
+url: "{{ _.base }}/api/v1/envs/{{ _.prodEnvId }}/feature-flags"
 name: get-flag-list
 description: ""
 method: GET
